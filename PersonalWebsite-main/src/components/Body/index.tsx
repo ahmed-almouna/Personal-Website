@@ -17,7 +17,7 @@ export default function Body() {
         <div className="bg-white w-[500px] h-fit py-24 px-12 flex items-center flex-col -ml-32 mt-80">
           <div className="text-5xl font-bold pb-10">Hey There!</div>
           <div className="text-2xl text-center">
-            I’m Ahmed, a junior Software Engineering student. Check
+            I’m Ahmed, aa junior Software Engineering student. Check
             out my portfolio to see the cool stuff I'm working on.
           </div>
         </div>
