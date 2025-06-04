@@ -16,8 +16,7 @@ export default function Contact() {
           <br />
           <br />
           I&apos;m currently still looking for any
-          internship/Co-op opportunities for Fall 2025
-          year.
+          internship/Co-op opportunities for Fall 2025.
         </div>
       </div>
       <div className="flex justify-center my-4">
