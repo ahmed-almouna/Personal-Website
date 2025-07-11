@@ -17,7 +17,7 @@ export default function About() {
       </div>
       <div className="w-full max-w-7xl flex flex-col md:flex-row justify-end items-start gap-0 px-4">
         {/* Left side - Topic list */}
-        <div className="w-full md:w-1/3 flex flex-row flex-wrap gap-4 justify-center">
+        <div className="w-full md:w-1/3 flex flex-row flex-wrap gap-4 justify-center mt-20">
           {AboutList.map((aboutEntry: aboutProps) => (
             <div
               key={aboutEntry.topic}

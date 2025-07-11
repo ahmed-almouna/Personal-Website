@@ -40,7 +40,7 @@ export const ExperienceList = [
     url: "",
     role: "",
     timeline: "",
-    bullets: ["Work in progress..."],
+    bullets: ["Incoming..."],
     location: "",
   },
   {
