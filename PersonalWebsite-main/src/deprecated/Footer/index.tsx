@@ -4,10 +4,10 @@ export default function Footer() {
   return (
     <div className="flex justify-center py-6">
       <Link
-        href="https://github.com/syaamkhandaker"
+        href="https://github.com/ahmed-almouna"
         className="text-xs"
       >
-        Credit to Syaam Khandaker
+        C
       </Link>
     </div>
   );

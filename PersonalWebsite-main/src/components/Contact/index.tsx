@@ -30,7 +30,7 @@ export default function Contact() {
       </div>
       <div className="flex justify-center">
         <p className="text-xs absolute bottom-5">
-            {/* Credit to Syaam Khandaker for the design */}
+            {/*  */}
         </p>
       </div>
     </div>

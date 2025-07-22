@@ -19,8 +19,9 @@ export const AboutList = [
   {
     topic: "Skills",
     role: "My skills",
-    bullets: ["• Languages and Frameworks: C/C++, C#, Linux, .NET, Python, Bash, HTML/CSS, JavaScript, PHP, Django, SQL, Java, ARM Assembly.",
-      "• Tools: Git, GitHub, Azure, Visual Studio, VS Code, MySQL, Shell, CodeWarrior, Azure DevOps, Postman, Lucidchart, Figma, Selenium.",
+    bullets: ["• Languages: C/C++, C#, Python, HTML/CSS, JS/TS, PHP, SQL, Java, ARM Assembly.",
+      "• Frameworks & Libraries: NextJS, React, Tailwind, Bootstrap, Django, Django REST, ASP.NET, .NET Framework, WPF. ",
+      "• Platforms & Tools: Git, GitHub, Shell, Azure, MySQL, PostgreSQL, Azure DevOps, Postman, IIS, Linux, Selenium, Lucidchart, Figma, CodeWarrior, NodeJS, Microsoft 365.",
       "• Spoken languages: English, Arabic."
     ],
   },
@@ -59,15 +60,31 @@ export const ExperienceList = [
 
 export const ProjectList = [
   {
-    name: "MetaGen",
+    name: "Co-opoly",
     skills: [
+      "Unity",
     ],
-    timeline: "",
-    text: "work in progress...",
+    timeline: "WORK IN PROGRESS...",
+    text: "A coop version of the beloved board-game classic Monopoly. You get to team up with your friends and compete against rival teams - sharing wealth, resources, and victory in the process.",
     url: "",
   },
   {
-    name: "Gallery Web App",
+    name: "MetaBuild",
+    skills: [
+      "TypeScript",
+      "Python",
+      "NextJS",
+      "Django REST",
+      "Bootstrap",
+      "PostgreSQL",
+      "Git",
+    ],
+    timeline: "July 2025",
+    text: "An intelligent PC builder tool that allows users to generate the best possible computer builds based on their budget, use case, and preferences.",
+    url: "https://github.com/ahmed-almouna/MetaBuild",
+  },
+  {
+    name: "MyGallery",
     skills: [
       "Python",
       "Django",
@@ -79,8 +96,20 @@ export const ProjectList = [
       "Git",
     ],
     timeline: "March 2025",
-    text: "A gallery/photo sharing web app for people to share their pictures and interact with other users.",
+    text: "A gallery/photo sharing web app for people to share their photos and interact with other users.",
     url: "https://github.com/ahmed-almouna/Gallery",
+  },
+  {
+    name: "Dev Web Server",
+    skills: [
+      "C#",
+      "Postman",
+      "TCP/IP",
+      "Git",
+    ],
+    timeline: "Nov 2024",
+    text: "A lightweight web server for developers to test their network applications during development.",
+    url: "https://github.com/ahmed-almouna/Web-Server",
   },
   {
     name: "MS-DOS Notepad",
@@ -91,21 +120,9 @@ export const ProjectList = [
       "Regex",
       "Git",
     ],
-    timeline: "Nov 2024",
-    text: "An MS-DOS style notepad app for Windows OS. Implements core notepad functionality and features with an MS-DOS style UI.",
-    url: "https://github.com/ahmed-almouna/Notepad",
-  },
-  {
-    name: "Dev Web Server",
-    skills: [
-      "C#",
-      "Postman",
-      "TCP/IP",
-      "Git",
-    ],
     timeline: "Aug 2024",
-    text: "A lightweight web server for developers to test their network applications during development.",
-    url: "https://github.com/ahmed-almouna/Web-Server",
+    text: "An MS-DOS style notepad app for Windows. Implements core notepad functionality and features with an MS-DOS style UI.",
+    url: "https://github.com/ahmed-almouna/Notepad",
   },
 
 ];
