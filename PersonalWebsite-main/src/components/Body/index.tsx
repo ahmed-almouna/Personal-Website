@@ -10,11 +10,11 @@ export default function Body() {
           <Image
             className="rounded-full  border-4 border-orange-300"
             src={"/photo.png"}
-            width={256}
-            height={256}
+            width={400}
+            height={400}
             quality={100}
             unoptimized={true}
-            sizes="256px"
+            sizes="400px"
             priority={true}
             alt="Photo of me :)"
           />
