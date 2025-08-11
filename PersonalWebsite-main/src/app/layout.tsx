@@ -21,6 +21,11 @@ export default function RootLayout({
     <html lang="en" className="dotted">
       <Head>
         <meta {...metadata}></meta>
+        <title>{metadata.title}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content={metadata["aria-description"]} />
+        <meta name="keywords" content="Ahmed Almouna, Portfolio, Software Engineer, Web Developer" />
+        <meta name="author" content="Ahmed Almouna" />
       </Head>
       <body className={poppins.className}>{children}</body>
     </html>
