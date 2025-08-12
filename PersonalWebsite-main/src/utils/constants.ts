@@ -22,7 +22,6 @@ export const AboutList = [
     bullets: ["• Languages: C/C++, C#, Python, HTML/CSS, JS/TS, PHP, SQL, Java, ARM Assembly.",
       "• Frameworks & Libraries: NextJS, React, Tailwind, Bootstrap, Django, Django REST, ASP.NET, .NET Framework, WPF. ",
       "• Platforms & Tools: Git, GitHub, Shell, Azure, MySQL, PostgreSQL, Azure DevOps, Postman, IIS, Linux, Selenium, Lucidchart, Figma, Logisim, CodeWarrior, NodeJS, Microsoft 365.",
-      "• Spoken languages: English, Arabic."
     ],
   },
   {

@@ -11,7 +11,7 @@ export default function About() {
   };
   
   return (
-    <div className="flex flex-col items-center mb-32" id="about">
+    <div className="flex flex-col items-center mb-24" id="about">
       <div className="text-5xl font-bold uppercase mb-20">
         About
       </div>
