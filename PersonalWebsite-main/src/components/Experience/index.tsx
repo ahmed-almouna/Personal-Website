@@ -55,7 +55,7 @@ export default function Experience() {
                       @ {experienceEntry.company}
                     </span>
                   </div>
-                  <div className="text-secondary text-base md:text-xl font-semibold">
+                  <div className="text-base md:text-xl font-semibold text-gray-600">
                     {experienceEntry.timeline}
                   </div>
                   {experienceEntry.bullets.map((bullet: string) => {
