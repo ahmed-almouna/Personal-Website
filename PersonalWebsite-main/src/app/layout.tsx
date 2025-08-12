@@ -26,6 +26,9 @@ export default function RootLayout({
         <meta name="description" content={metadata["aria-description"]} />
         <meta name="keywords" content="Ahmed Almouna, Portfolio, Software Engineer, Web Developer" />
         <meta name="author" content="Ahmed Almouna" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
       </Head>
       <body className={poppins.className}>{children}</body>
     </html>
