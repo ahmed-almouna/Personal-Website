@@ -16,11 +16,11 @@ export default function Experience() {
       <div className="text-5xl font-bold uppercase flex justify-center">
         Experience
       </div>
-      <div className="flex gap-10 justify-center items-stretch mt-20 h-1/2">
-        <div className="flex flex-col items-center gap-y-8">
+      <div className="flex flex-col md:flex-row gap-6 md:gap-10 justify-center items-stretch mt-10 md:mt-20">
+        <div className="flex flex-col items-center gap-y-6 md:gap-y-8">
           {ExperienceList.map((experienceEntry: experienceProps) => {
             return (
-              <div key={experienceEntry.company} className="text-3xl">
+              <div key={experienceEntry.company} className="text-2xl md:text-3xl">
                 <div
                   className={`${
                     experienceEntry.company === company
@@ -35,16 +35,16 @@ export default function Experience() {
             );
           })}
         </div>
-        <div className="w-0.5 bg-black h-[550px] " />
-        <div className="w-1/4 flex gap-y-8">
+        <div className="hidden md:block w-0.5 bg-black md:h-[550px] self-stretch" />
+        <div className="w-full md:w-1/4 max-w-sm md:max-w-none mx-auto md:mx-0 px-4 md:px-0 flex gap-y-6 md:gap-y-8">
           {ExperienceList.map((experienceEntry: experienceProps) => {
             if (experienceEntry.company === company) {
               return (
                 <div
                   key={experienceEntry.company}
-                  className=" flex flex-col gap-4"
+                  className=" flex flex-col gap-4 break-words"
                 >
-                  <div className="text-3xl font-semibold w-max">
+                  <div className="text-xl md:text-3xl font-semibold md:w-max">
                     {experienceEntry.role}{" "}
                     <span
                       className="text-secondary hover:cursor-pointer"
@@ -55,14 +55,14 @@ export default function Experience() {
                       @ {experienceEntry.company}
                     </span>
                   </div>
-                  <div className="text-secondary text-xl font-semibold">
+                  <div className="text-secondary text-base md:text-xl font-semibold">
                     {experienceEntry.timeline}
                   </div>
                   {experienceEntry.bullets.map((bullet: string) => {
                     return (
                       <li
                         key={bullet}
-                        className="marker:text-secondary text-lg"
+                        className="marker:text-secondary text-sm md:text-lg"
                       >
                         {bullet}
                       </li>

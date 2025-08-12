@@ -30,6 +30,10 @@ export const AboutList = [
     bullets: ["Conestoga College - Waterloo, ON⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Sep 2023 - Present ⠀⠀• 2nd year Software Engineering (Co-op) with a 3.83/4.00 GPA. ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀• Member of Google Developer Student Club.",
       "Eastowood Colligate Institute - Kitchener, ON ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Sep 2019 - Jun 2023 ⠀⠀• I attended ECI for 4 years with a Gr. 12 average of 86% ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀• Played soccer throughout my time."
     ],
+    mobileBullets: [
+      "Conestoga College: Currently in 2nd year of Software Engineering with a 3.83/4.00 GPA • Member of Google Developer Student Club.",
+      "Eastwood Collegiate Institute: Graduated with a Gr. 12 average of 86% • Played soccer throughout my time."
+    ],
     
   },
 ];

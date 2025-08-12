@@ -6,3 +6,13 @@
   background: radial-gradient(#d2d6db 1px, transparent 0px) -2.5px -2.5px/10px
     10px #f1f1ed;
 }
+
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}

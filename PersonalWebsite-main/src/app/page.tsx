@@ -24,9 +24,8 @@ export default function Home() {
       {Sections.map((section: JSX.Element, index: number) => {
         return (
           <div className="flex justify-center h-fit relative pb-10">
-            <div className="w-screen px-5 lg:w-11/12 lg:px-20 ">
+            <div className="w-full px-5 lg:w-11/12 lg:px-20 ">
               {section}
-              <Icons />
             </div>
             {/* {index !== Sections.length - 1 ? (
               <div
@@ -46,6 +45,7 @@ export default function Home() {
           </div>
         );
       })}
+      <Icons />
     </div>
   );
 }
