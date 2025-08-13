@@ -22,7 +22,7 @@ export default function RootLayout({
       <Head>
         <title>{metadata.title}</title>
         <link rel="apple-touch-icon" sizes="180x180" href="https://ahmed-almouna.com/apple-touch-icon.png"/>
-        <link rel="icon" href="https://ahmed-almouna.com/favicon.ico"/>
+        <link rel="icon" href="https://ahmed-almouna.com/favicon.png"/>
         <link rel="icon" href="https://ahmed-almouna.com/favicon-32x32.png" sizes="32x32" type="image/png"/>
         <link rel="icon" href="https://ahmed-almouna.com/favicon-16x16.png" sizes="16x16" type="image/png"/>
 
