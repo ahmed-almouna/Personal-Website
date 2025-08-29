@@ -4,7 +4,14 @@ import { Poppins } from "next/font/google";
 
 export const metadata = {
   title: "Ahmed Almouna",
-  "aria-description": "Ahmed Almouna Personal Portfolio Website",
+  description: "Ahmed Almouna Personal Portfolio Website",
+  keywords: "Ahmed Almouna, Portfolio, Software Engineer, Software Developer, Web Developer, ahmed almouna," +
+  "ahmed almoune, ahmed elmouna, ahmed elmoune, ahmed al mouna, ahmed al moune, ahmed el mouna, ahmed el moune," +
+  "ahmed almona, ahmed almone, ahmed elmona, ahmed elmone, ahmed al mona, ahmed al mone, ahmed el mona, ahmed el mone," +
+  "ahmad almouna, ahmad almoune, ahmad elmouna, ahmad elmoune, ahmad al mouna, ahmad al moune, ahmad el mouna," +
+  "ahmad el moune, ahmad almona, ahmad almone, ahmad elmona, ahmad elmone, ahmad al mona, ahmad al mone, ahmad el mona," +
+  "ahmad el mone",
+  author: "Ahmed Almouna",
 };
 
 const poppins = Poppins({
@@ -27,9 +34,9 @@ export default function RootLayout({
         <link rel="icon" href="https://ahmed-almouna.com/favicon-16x16.png" sizes="16x16" type="image/png"/>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content={metadata["aria-description"]} />
-        <meta name="keywords" content="Ahmed Almouna, Portfolio, Software Engineer, Web Developer" />
-        <meta name="author" content="Ahmed Almouna" />
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords} />
+        <meta name="author" content={metadata.author} />
       </Head>
       <body className={poppins.className}>{children}</body>
     </html>
