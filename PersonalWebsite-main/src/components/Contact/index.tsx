@@ -13,10 +13,6 @@ export default function Contact() {
         <div className="w-11/12 md:w-5/12 text-center text-2xl font-extralight">
           I'm always free to discuss project ideas, potential new opportunities, 
           questions about my experience, or just say hello! 
-          <br />
-          <br />
-          I&apos;m currently still looking for any
-          internship/Co-op opportunities for Fall 2025.
         </div>
       </div>
       <div className="flex justify-center my-4">
